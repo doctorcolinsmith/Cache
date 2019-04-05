@@ -1,0 +1,207 @@
+
+Validating spec
+ -> Cache  Cache (4.3.1) - Analyzing on iOS 12.0 platform.
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `Cache` from `/Users/colin/Work/Cache/Cache.podspec`
+
+Resolving dependencies of 
+
+Comparing resolved specification to the sandbox manifest
+  A Cache
+
+Downloading dependencies
+
+-> Installing Cache (4.3.1)
+  $ /usr/bin/git ls-remote https://github.com/doctorcolinsmith/Cache.git swift42
+  e633abae413ea7842fa2763383fa203c929804b9	refs/heads/swift42
+ > Git download
+ > Git download
+     $ /usr/bin/git clone https://github.com/doctorcolinsmith/Cache.git /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/d20190405-85642-jz7xc5 --template= --single-branch --depth 1 --branch swift42
+  $ /usr/bin/git -C /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/d20190405-85642-jz7xc5 rev-parse HEAD
+  e633abae413ea7842fa2763383fa203c929804b9
+  > Copying Cache from `/Users/colin/Library/Caches/CocoaPods/Pods/External/Cache/343dbf8d421ad9e55202b2c23eca9977-6d671` to `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache`
+  - Running pre install hooks
+
+Generating Pods project
+  - Creating Pods project
+  - Adding source files to Pods project
+  - Adding frameworks to Pods project
+  - Adding libraries to Pods project
+  - Adding resources to Pods project
+  - Linking headers
+  - Installing targets
+    - Installing target `Cache` iOS 12.0
+      - Generating module map file at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Cache/Cache.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Cache/Cache-umbrella.h`
+      - Generating Info.plist file at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Cache/Cache-Info.plist`
+      - Generating dummy source at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Cache/Cache-dummy.m`
+    - Installing target `Pods-App` iOS 12.0
+      - Generating Info.plist file at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Pods-App/Pods-App-Info.plist`
+      - Generating module map file at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Pods-App/Pods-App.modulemap`
+      - Generating umbrella header at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Pods-App/Pods-App-umbrella.h`
+      - Generating dummy source at `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Pods.xcodeproj`
+  - Writing Lockfile in `../../../../var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Podfile.lock`
+  - Writing Manifest in `../../../../private/var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Manifest.lock`
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/App.xcodeproj` project)
+  Adding Build Phase '[CP] Embed Pods Frameworks' to project.
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=E8121C13-4023-4565-BEA2-45F28EE4C541
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator12.2
+    
+    note: Using new build system
+    
+    ** CLEAN SUCCEEDED **
+    
+    note: Using new build system
+    note: Planning build
+    note: Constructing build description
+    CreateBuildDirectory /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex (in target: App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache
+        builtin-create-build-directory /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex
+    
+    CreateBuildDirectory /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products (in target: App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache
+        builtin-create-build-directory /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Pods_App.framework (in target: Pods-App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Pods_App.framework
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Pods_App.framework/Headers (in target: Pods-App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Pods_App.framework/Headers
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/App.app (in target: App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/App.app
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/App.app/Frameworks (in target: App)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/App.app/Frameworks
+    
+    MkDir /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Headers (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        /bin/mkdir -p /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Headers
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-generated-files.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/all-product-headers.yaml (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-own-target-headers.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-target-headers.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-non-framework-target-headers.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-non-framework-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-project-headers.hmap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module.modulemap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module.modulemap
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module-overlay.yaml (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module-overlay.yaml
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/module.modulemap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/module.modulemap
+    
+    ProcessInfoPlistFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Info.plist /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target\ Support\ Files/Cache/Cache-Info.plist (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        builtin-infoPlistUtility /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target\ Support\ Files/Cache/Cache-Info.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphonesimulator -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Info.plist
+    
+    CpHeader /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target\ Support\ Files/Cache/Cache-umbrella.h /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Headers/Cache-umbrella.h (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Target\ Support\ Files/Cache/Cache-umbrella.h /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Headers
+    
+    Ditto /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/module.modulemap /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Modules/module.modulemap (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/module.modulemap /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/Cache.framework/Modules
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources/Cache_vers.c (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources/Cache_vers.c
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache.LinkFileList (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache.LinkFileList
+    
+    WriteAuxiliaryFile /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache-OutputFileMap.json (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        write-file /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache-OutputFileMap.json
+    
+    CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+        export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name Cache -O -whole-module-optimization -enforce-exclusivity=checked -D COCOAPODS -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk -target x86_64-apple-ios12.0-simulator -g -module-cache-path /Users/colin/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 4.2 -I /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache -F /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache -c -num-threads 8 /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/AsyncStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/AsyncStorageAware.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/DataSerializer.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Extensions/Date+Extensions.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Configuration/DiskConfig.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/DiskStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Entry.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/ExpirationMode.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Expiry.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/HybridStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/ImageWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/JSONArrayWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Extensions/JSONDecoder+Extensions.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/JSONDictionaryWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/MD5.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Configuration/MemoryConfig.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/MemoryStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Result.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/Storage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/StorageAware.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/StorageError.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/SyncStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Types.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/TypeWrapperStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/iOS/UIImage+Extensions.swift -output-file-map /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache.swiftmodule -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-generated-files.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-own-target-headers.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-project-headers.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/include -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources-normal/x86_64 -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources/x86_64 -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources -Xcc -DPOD_CONFIGURATION_RELEASE=1 -Xcc -DCOCOAPODS=1 -emit-objc-header -emit-objc-header-path /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Cache-Swift.h -import-underlying-module -Xcc -ivfsoverlay -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module-overlay.yaml -working-directory /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+    
+    CompileSwift normal x86_64 (in target: Cache)
+        cd /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/AsyncStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/AsyncStorageAware.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/DataSerializer.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Extensions/Date+Extensions.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Configuration/DiskConfig.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/DiskStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Entry.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/ExpirationMode.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Expiry.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/HybridStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/ImageWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/JSONArrayWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Extensions/JSONDecoder+Extensions.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/JSONDictionaryWrapper.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/MD5.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Configuration/MemoryConfig.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/MemoryStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Result.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/Storage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/StorageAware.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/StorageError.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/SyncStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Library/Types.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/Shared/Storage/TypeWrapperStorage.swift /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods/Cache/Source/iOS/UIImage+Extensions.swift -supplementary-output-file-map /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/supplementaryOutputs-4fb7b4 -target x86_64-apple-ios12.0-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk -I /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache -F /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache -g -import-underlying-module -module-cache-path /Users/colin/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 4.2 -enforce-exclusivity=checked -O -D COCOAPODS -serialize-debugging-options -Xcc -working-directory -Xcc /var/folders/gz/fjryqf8d5r57yx0rg5jg2d5h0000gn/T/CocoaPods-Lint-20190405-85642-1p2gvvn-Cache/Pods -enable-anonymous-context-mangled-names -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-generated-files.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-own-target-headers.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Cache-project-headers.hmap -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Products/Release-iphonesimulator/Cache/include -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources-normal/x86_64 -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources/x86_64 -Xcc -I/Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/DerivedSources -Xcc -DPOD_CONFIGURATION_RELEASE=1 -Xcc -DCOCOAPODS=1 -Xcc -ivfsoverlay -Xcc /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/unextended-module-overlay.yaml -module-name Cache -num-threads 8 -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/AsyncStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/AsyncStorageAware.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/DataSerializer.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Date+Extensions.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/DiskConfig.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/DiskStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Entry.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/ExpirationMode.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Expiry.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/HybridStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/ImageWrapper.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/JSONArrayWrapper.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/JSONDecoder+Extensions.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/JSONDictionaryWrapper.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/MD5.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/MemoryConfig.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/MemoryStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Result.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Storage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/StorageAware.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/StorageError.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/SyncStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/Types.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/TypeWrapperStorage.o -o /Users/colin/Library/Developer/Xcode/DerivedData/App-gvszrqbmmwdnskgknwcoeamurxst/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Cache.build/Objects-normal/x86_64/UIImage+Extensions.o
+    error: Bus error: 10
+    
+    <unknown>:0: error: unable to execute command: Bus error: 10
+    <unknown>:0: error: compile command failed due to signal 10 (use -v to see invocation)
+  Testing with `xcodebuild`.
+ -> Cache (4.3.1)
+    - WARN  | source: Git sources should specify a tag.
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code.
+    - NOTE  | xcodebuild:  note: Using new build system
+    - NOTE  | [iOS] xcodebuild:  note: Planning build
+    - NOTE  | [iOS] xcodebuild:  note: Constructing build description
+    - NOTE  | [iOS] xcodebuild:  error: Bus error: 10
+    - NOTE  | [iOS] xcodebuild:  <unknown>:0: error: unable to execute command: Bus error: 10
+    - NOTE  | [iOS] xcodebuild:  <unknown>:0: error: compile command failed due to signal 10 (use -v to see invocation)
+
+[!] The `Cache.podspec` specification does not validate.
+
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/lib/cocoapods/command/repo/push.rb:147:in `block in validate_podspec_files'
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/lib/cocoapods/command/repo/push.rb:132:in `each'
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/lib/cocoapods/command/repo/push.rb:132:in `validate_podspec_files'
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/lib/cocoapods/command/repo/push.rb:77:in `run'
+/Library/Ruby/Gems/2.3.0/gems/claide-1.0.2/lib/claide/command.rb:334:in `run'
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/lib/cocoapods/command.rb:52:in `run'
+/Library/Ruby/Gems/2.3.0/gems/cocoapods-1.6.1/bin/pod:55:in `<top (required)>'
+/usr/local/bin/pod:22:in `load'
+/usr/local/bin/pod:22:in `<main>'
